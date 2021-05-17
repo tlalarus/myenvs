@@ -57,9 +57,10 @@ RUN ldconfig
 WORKDIR /opt
 RUN apt-get install wget
 RUN wget https://www.ximea.com/downloads/recent/XIMEA_Linux_SP.tgz -O /opt/XIMEA_Linux_SP.tgz
-#RUN tar xzf XIMEA_Linux_SP.tgz &&\
-#  apt-get update &&\
-#  ./package/install
+RUN tar xzf XIMEA_Linux_SP.tgz &&\
+  apt-get update &&\
+  apt install sudo &&\
+  ./package/install
 
   
 
