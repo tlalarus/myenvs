@@ -1,0 +1,8 @@
+[Desktop Entry]
+
+Encoding=UTF-8
+Name=xicamtool
+Comment=ximea camera viewer tool
+Exec=/opt/XIMEA/bin/xiCamTool
+Type=Application
+Categories=Development
