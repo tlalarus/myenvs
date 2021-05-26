@@ -16,3 +16,10 @@ sudo ./install
 echo "remove USB buffer size limitation..."
 sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb >/dev/null <<<0
 
+# Set env var
+echo "# XIMEA initialize" >> $HOME/.bashrc
+echo "export XIMEA_HOME=/opt/XIMEA" >> $HOME/.bashrc
+echo "export PATH=$PATH:$XIMEA_HOME/bin" >> $HOME/.bashrc
+source $HOME/.bashrc
+
+

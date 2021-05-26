@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=xicop
 Comment=ximea camera diagnostic tool
-Exec=/opt/XIMEA/bin/xiCop
+Exec=/opt/XIMEA/bin/xiCOP
 Type=Application
 Categories=Development
 

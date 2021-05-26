@@ -2,3 +2,5 @@
 ################
 *.tar
 *.tgz
+*.tar.gz
+ximea/ximea-sdk-setup.tar.gz
